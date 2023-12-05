@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.entery_word{
+    background: #EF9273;
+    width: 653px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.game_entery {
+    display: flex;
+    flex-direction: column;
+}
+
+.game_entery .link {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: black;
+    color: white;
+
+    /* inherit font & color from ancestor */
+    font: inherit;
+    text-decoration: none;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    margin-top: 10px;
+    width: 300px;
+    padding: 25px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.entery_word h1 {
+    justify-content: center;
+    align-items: center;
+}

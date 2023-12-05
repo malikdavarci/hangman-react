@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-weight: bold;
+}
+
+.rules_text {
+    width: 653px;
+    height: 500px;
+    background: #EF9273;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.rules_text p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container .link {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: black;
+    color: white;
+
+    /* inherit font & color from ancestor */
+    font: inherit;
+    text-decoration: none;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    margin-top: 10px;
+    width: 300px;
+    padding: 25px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
